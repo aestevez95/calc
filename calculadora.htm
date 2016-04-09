@@ -16,10 +16,16 @@
             num.value = num.value * num.value;
           }
 
+          function cubo () {
+            var num = document.getElementById("n1");
+            num.value = Math.pow(num.value, 3);
+          }
+
           function raiz () {
             var num = document.getElementById("n1");
             num.value = Math.sqrt(num.value);
           }
+
 
     </script>
   </head>
@@ -30,6 +36,10 @@
 
     <button onclick="cuadrado()">
       x<sup>2</sup>
+    </button>
+
+    <button onclick="cubo()">
+      x<sup>3</sup>
     </button>
 
     <button onclick="raiz()">
